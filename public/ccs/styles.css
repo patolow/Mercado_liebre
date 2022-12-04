@@ -1,0 +1,134 @@
+:root {
+  --yellow: #EAC926;
+  --dark-blue: #03264C;
+  --light-blue: #1259c3;
+  --dark-grey: #666;
+  --light-grey: #ebebeb;
+  --green: #39b54a;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.buscar {
+  width: 50%;
+  margin-left: 15px;
+}
+
+.banner > img {
+  width: 100%;
+}
+
+.logo {
+  width: 50%;
+  padding: 15px 0px 0px 15px ;
+}
+
+h2 {
+  padding: 10px;
+  font-size: 24px;
+}
+
+.price {
+  font-size: 18px;
+}
+
+.discount{
+  font-size: 16px;
+  color: var(--green)
+}
+
+.product {
+  padding: 10px;
+  text-align: left;
+}
+
+.details-product {
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #ebebeb;
+}
+
+#truck {
+  color: var(--green);
+  font-size: 2em;
+  align-self: center;
+  padding-left: 0.2em;
+}
+
+.truck-container {
+  border: 1px solid;
+  border-color: var(--green);
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+}
+
+.img-product > img {
+  width: 100%;
+}
+
+.product-name {
+  font-size: 16px;
+}
+
+h1 {
+  padding: 0px 10px 0px 10px;
+  font-size: 16px;
+}
+
+header {
+  background-color: var(--yellow);
+}
+
+main {
+  background-color: var(--light-grey);
+  text-align: center;
+  padding: 5%;
+}
+
+footer {
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+  width: 100%;
+}
+
+#icon {
+  color: var(--light-blue);
+  font-size: 2em;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.copyright {
+  text-align: left;
+}
+
+a  {
+  color: black;
+  text-decoration: none;
+}
+
+header > p {
+  text-align: center;
+}
+
+.burger-menu {
+  text-align: center;
+}
+
+#menu {
+  color: white;
+  font-size: 2em;
+  background-color: var(--light-blue);
+  padding: 1.5%;
+  border-radius: 5px;
+}
+
