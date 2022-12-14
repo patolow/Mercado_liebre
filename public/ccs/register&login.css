@@ -1,0 +1,115 @@
+:root {
+  --yellow: #EAC926;
+  --dark-blue: #03264C;
+  --light-blue: #1259c3;
+  --dark-grey: #666;
+  --light-grey: #ebebeb;
+  --green: #39b54a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.create-form {
+  padding: 10px;
+}
+
+.control-formulario {
+  padding: 5px;
+  text-align: left;
+}
+
+input:valid {
+  outline: red;
+}
+
+.input-name {
+  padding: 10px 0px;
+  font-weight: bold;
+  display: block;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  text-emphasis: none;
+  border: none;
+  display: block;
+}
+
+.input-checkbox {
+  display: block;
+  padding: 5px;
+}
+
+#perfil {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.button-form {
+  background-color: var(--light-blue);
+  color: white;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 30%;
+  margin: 10px 5px;
+}
+
+
+@media (min-width: 425px) {
+  .create-form {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .control-formulario {
+    width: 100%;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .buttons {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .create-form {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .control-formulario {
+    width: 100%;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .buttons {
+    width: 100%;
+  }
+
+  .button-form {
+    transition: all 450ms;
+  }
+
+  .button-form:hover {
+    background-color: #0022AA;
+  }
+
+}
